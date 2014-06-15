@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>browsersmtp</title>
+    </head>
+    <body>
+        <div>
+            <form id="client-input-form">
+                <input type="text" id="client-input-data" autofocus style="width: 700px;" placeholder="AUTH PLAIN AHRlc3R1c2VyAGRlbW8=" value="AUTH PLAIN AHRlc3R1c2VyAGRlbW8="> <input type="submit" value="Send"/>
+            </form>
+        </div>
+        <div>ESMTP server in a browser. Username is <code>testuser</code> and password is <code>demo</code></div>
+        <div><textarea readonly id="log" style="width: 800px; height: 400px;"></textarea></div>
+
+        <script src="../node_modules/stringencoding/dist/stringencoding.js"></script>
+        <script src="../node_modules/mimefuncs/src/mimefuncs.js"></script>
+
+        <script src="../src/browsersmtp.js"></script>
+
+        <script src="client.js"></script>
+    </body>
+<html>

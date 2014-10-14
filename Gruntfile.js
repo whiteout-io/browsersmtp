@@ -37,7 +37,7 @@ module.exports = function(grunt) {
                     'chai/chai.js',
                     'sinon/pkg/sinon.js',
                     'requirejs/require.js',
-                    'stringencoding/dist/stringencoding.js',
+                    'wo-stringencoding/dist/stringencoding.js',
                     'mimefuncs/src/mimefuncs.js'
                 ],
                 dest: 'test/lib/'

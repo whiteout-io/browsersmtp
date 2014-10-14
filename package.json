@@ -7,7 +7,7 @@
     "test": "grunt"
   },
   "dependencies": {
-    "mimefuncs": "https://github.com/whiteout-io/mimefuncs/tarball/v0.3.1"
+    "mimefuncs": "~0.3.4"
   },
   "devDependencies": {
     "chai": "~1.8.1",
@@ -22,7 +22,7 @@
     "phantomjs": "~1.9.7-1",
     "requirejs": "~2.1.10",
     "sinon": "^1.9.0",
-    "stringencoding": "https://github.com/whiteout-io/stringencoding/tarball/v0.1.0",
+    "wo-stringencoding": "~0.1.1",
     "amdefine": "^0.1.0",
     "grunt-mocha-test": "^0.10.2"
   },
